@@ -24,7 +24,7 @@
 
 12. [Graph Database](graph-database.md)
 
-13. [Future Proof Your IT Strategy](future-proof-your-it-strategy.md)
+-13. [Advantages and Disadvantages of Cloud Computing](Advantages-and-Disadvantages-of-Cloud-Computing.md)
 
     
 
