@@ -1506,7 +1506,8 @@ You can **start both master and server** instances by using the start-all .spark
 <u>Note</u>: 
 
 To distinguish between two files with the same name in $HADOOP_HOME/sbin, rename the files name in $SPARK_HOME/sbin :
-**mv $SPARK_HOME/sbin/start-all.sh $SPARK_HOME/sbin/start-all-spark.sh** & 
+
+**mv $SPARK_HOME/sbin/start-all.sh $SPARK_HOME/sbin/start-all-spark.sh**
 
 **mv $SPARK_HOME/sbin/stop-all.sh mv $SPARK_HOME/sbin/stop-all-spark.sh:**
 
