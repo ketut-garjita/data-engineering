@@ -52,7 +52,7 @@ Big data, with its immense volume and varying [data structures](DataStructure.m
 
 Hadoop manages to process and store vast amounts of data by using interconnected affordable commodity hardware. Hundreds or even thousands of low-cost dedicated servers working together to store and process data within a single ecosystem.
 
-[The Hadoop Distributed File System (HDFS)](HDFS.cmd), **YARN**, and **MapReduce** are at the heart of that ecosystem. HDFS is a set of protocols used to store large data sets, while MapReduce efficiently processes the incoming data.
+[The Hadoop Distributed File System (HDFS)](HDFS.md), **YARN**, and **MapReduce** are at the heart of that ecosystem. HDFS is a set of protocols used to store large data sets, while MapReduce efficiently processes the incoming data.
 
 A Hadoop cluster consists of one, or several, Master Nodes and many more so-called Slave Nodes. HDFS and MapReduce form a flexible foundation that can linearly scale out by adding additional nodes. However, the complexity of big data means that there is always room for improvement.
 
