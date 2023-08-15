@@ -68,7 +68,7 @@ Separating the elements of distributed systems into functional layers helps stre
 
 Hadoop can be divided into four (4) distinctive layers.
 
-![A Hadoop cluster divided into functional layers.](images\hadoop-ecosystem-layers.png)
+![A Hadoop cluster divided into functional layers.](images/hadoop-ecosystem-layers.png)
 
 #### 3.3.1 Distributed Storage Layer
 
