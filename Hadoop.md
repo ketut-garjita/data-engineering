@@ -80,11 +80,11 @@ Hadoop needs to coordinate nodes perfectly so that countless applications and us
 
 #### 3.3.3 Processing Framework Layer
 
-The processing layer consists of frameworks that analyze and process datasets coming into the cluster. The [structured and unstructured datasets](structured-vs-unstructured-data.md) are mapped, shuffled, sorted, merged, and reduced into smaller manageable data blocks. These operations are spread across multiple nodes as close as possible to the servers where the data is located. Computation frameworks such as Spark, Storm, Tez now enable real-time processing, interactive query processing and other programming options that help the MapReduce engine and utilize HDFS much more efficiently.
+The processing layer consists of frameworks that analyze and process datasets coming into the cluster. The [structured and unstructured datasets](Structured-vs-Unstructured-Data.md) are mapped, shuffled, sorted, merged, and reduced into smaller manageable data blocks. These operations are spread across multiple nodes as close as possible to the servers where the data is located. Computation frameworks such as Spark, Storm, Tez now enable real-time processing, interactive query processing and other programming options that help the MapReduce engine and utilize HDFS much more efficiently.
 
 #### 3.3.4 Application Programming Interface
 
-The introduction of YARN in Hadoop 2 has lead to the creation of new processing frameworks and APIs. Big data continues to expand and the variety of tools needs to follow that growth. Projects that focus on search platforms, [data streaming](spark-streaming.md), user-friendly interfaces, programming languages, messaging, failovers, and security are all an intricate part of a comprehensive Hadoop ecosystem.
+The introduction of YARN in Hadoop 2 has lead to the creation of new processing frameworks and APIs. Big data continues to expand and the variety of tools needs to follow that growth. Projects that focus on search platforms, [data streaming](Spark-Streaming.md), user-friendly interfaces, programming languages, messaging, failovers, and security are all an intricate part of a comprehensive Hadoop ecosystem.
 
 ### 3.4 HDFS Explained
 
@@ -598,29 +598,29 @@ http://localhost:9870
 
 The following is what the HDFS installation looks like:
 
-           ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-15-50-image.png)
+           ![](images/2023-08-10-16-15-50-image.png)
 
 Clicking on the Datanodes tab shows the nodes as shown in the following
 screenshot:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-20-50-image.png)
+![](images/2023-08-10-16-20-50-image.png)
 
 Click Startup Progress
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-22-41-image.png)
+![](images/2023-08-10-16-22-41-image.png)
 
 Clicking on the logs will show the various logs in your cluster, as shown in the
 following screenshot: 
 
 Utilities ==> Logs
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-17-31-image.png)
+![](images/2023-08-10-16-17-31-image.png)
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-19-07-image.png)
+![](images/2023-08-10-16-19-07-image.png)
 
 Utilities ==> Configuration
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-30-13-image.png)
+![](images/2023-08-10-16-30-13-image.png)
 
 At this point, we should all be able to see and use a basic HDFS cluster. But this is just a
 HDFS filesystem with some directories and files. We also need a job/task scheduling service to actually use the cluster for computational needs rather than just storage.
@@ -631,7 +631,7 @@ The default port **9864** is used to access individual DataNodes directly from
 http://localhost:9864
 ```
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-14-13-23-39-image.png)
+![](images/2023-08-14-13-23-39-image.png)
 
 ## 5. YARN
 
@@ -660,7 +660,7 @@ $ jps | grep -vi jps
 
 The following is the YARN ResourceManager.
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-49-53-image.png)
+![](images/2023-08-10-16-49-53-image.png)
 
 At this time, we should be able to see the running YARN service in our local cluster
 running Hadoop 3.1.0. Next, we will look at some new features in Hadoop 3.x.
@@ -689,7 +689,7 @@ hdfs ec [generic options]
 By using -listPolicies, you can list all the EC policies currently setup in your cluster
 along with the state of such policies whether they are ENABLED or DISABLED:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-24-52-image.png)
+![](images/2023-08-10-18-24-52-image.png)
 
 Lets test out EC in our cluster. First we will create directories in the HDFS shown as follows:
 
@@ -704,7 +704,7 @@ Once the two directories are created then you can set the policy on any path:
 $ hdfs ec -setPolicy -path /user/ec -policy RS-6-3-1024k
 ```
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-29-56-image.png)
+![](images/2023-08-10-18-29-56-image.png)
 
 Now copying any content into the /user/ec folder falls into the newly set policy.
 Type the command shown as follows to test this:
@@ -715,7 +715,7 @@ $ hdfs dfs -copyFromLocal ~/Documents/OnlineRetail.csv /user/ec
 
 The following screenshot shows the result of the copying, as expected the system complains as we don't really have a cluster on our local system enough to implement EC. But this should give us an idea of what is needed and how it would look:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-34-49-image.png)
+![](images/2023-08-10-18-34-49-image.png)
 
 ### 5.5 Intra-DataNode balancer
 
@@ -825,23 +825,23 @@ http://localhost:16010
 
 The following screenshot shows the HBase cluster we just installed:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-14-51-image.png)
+![](images/2023-08-10-19-14-51-image.png)
 
 The following screenshot shows are more attributes of the HBase cluster setup showing versions, of various components:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-57-20-image.png)
+![](images/2023-08-10-19-57-20-image.png)
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-58-00-image.png)
+![](images/2023-08-10-19-58-00-image.png)
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-58-36-image.png)
+![](images/2023-08-10-19-58-36-image.png)
 
 Startup Progress screenshot:
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-54-11-image.png)
+![](images/2023-08-10-19-54-11-image.png)
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-55-01-image.png)
+![](images/2023-08-10-19-55-01-image.png)
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-55-57-image.png)
+![](images/2023-08-10-19-55-57-image.png)
 
 ### 6.4 Using HBase
 
@@ -1080,7 +1080,7 @@ The following are the services provided by Hive:-
   
   https://dlcdn.apache.org/hive/
   
-  ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-13-50-23-image.png)
+  ![](images/2023-08-11-13-50-23-image.png)
 
 - Unzip the downloaded tar file.
 
@@ -1148,7 +1148,7 @@ Hive works by leveraging the MapReduce framework and uses the tables and schemas
   
   In this section, we will look at installing Derby to be used in our Hive installation, https://db.apache.org/derby/derby_downloads.html
   
-  ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-19-20-56-image.png)
+  ![](images/2023-08-11-19-20-56-image.png)
   
      
 
@@ -1277,7 +1277,7 @@ SELECT * from onlineretail LIMIT 5;
 SELECT * FROM OnlineRetail WHERE Description='WHITE METAL LANTERN' limit 5;
 ```
 
-![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-20-20-19-image.png)
+![](images/2023-08-11-20-20-19-image.png)
 
 ## 8. Apache Spark
 
