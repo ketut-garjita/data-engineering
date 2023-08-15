@@ -27,7 +27,7 @@ Below is a brief comparison table of structured data vs. unstructured data.
 
 Structured data is any type of data organized in a specific way. The data has a fixed format, such as tables with rows and columns.
 
-![image-20230815102841314](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815102841314.png)
+![image-20230815102841314](images/image-20230815102841314.png)
 
 Structured data resides in various formats that support a table-like structure. The data is simple to search through, sort, and analyze with [database tools](https://phoenixnap.com/kb/best-database-software) or in spreadsheets.
 
@@ -91,7 +91,7 @@ Structured data tools help create, manipulate, and manage structured data. Sever
 
 Unstructured data is data that does not follow a fixed structure format. The data model is schema-less and cannot use traditional data processing methods.
 
-![image-20230815103518959](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815103518959.png)
+![image-20230815103518959](images/image-20230815103518959.png)
 
 The data includes all data formats in structured data (text, dates, numbers), and extra complex unstructured data, such as video, audio, and documents.
 
