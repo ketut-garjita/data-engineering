@@ -44,7 +44,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 Apache Hadoop is an exceptionally successful framework that manages to solve the many challenges posed by big data. This efficient solution distributes storage and processing power across thousands of nodes within a cluster. A fully developed Hadoop platform includes a collection of tools that enhance the core Hadoop framework and enable it to overcome any obstacle.
 
-The underlying architecture and the role of the many available tools in a [Hadoop ecosystem](Hadoop.md) can prove to be complicated for newcomers.
+The underlying architecture and the role of the many available tools in a [Hadoop ecosystem](HadoopEcosystem.md) can prove to be complicated for newcomers.
 
 ### 3.2 Overview of Hadoop Architecture
 
