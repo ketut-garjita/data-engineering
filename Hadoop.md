@@ -58,7 +58,7 @@ A Hadoop cluster consists of one, or several, Master Nodes and many more so-call
 
 **Yet Another Resource Negotiator (YARN)** was created to improve resource management and scheduling processes in a Hadoop cluster. The introduction of YARN, with its generic interface, opened the door for other data processing tools to be incorporated into the Hadoop ecosystem.
 
-A vibrant developer community has since created numerous open-source [Apache](Apache.md) projects to complement Hadoop. Many of these solutions have catchy and creative names such as [Apache Hive](Hadoop.md), Impala, Pig, Sqoop, Spark, and Flume. These tools compile and process various data types. They also provide user-friendly interfaces, messaging services, and improve cluster processing speeds.
+A vibrant developer community has since created numerous open-source [Apache](Apache.md) projects to complement Hadoop. Many of these solutions have catchy and creative names such as Apache Hive, Impala, Pig, Sqoop, Spark, and Flume. These tools compile and process various data types. They also provide user-friendly interfaces, messaging services, and improve cluster processing speeds.
 
 An expanded software stack, with HDFS, YARN, and MapReduce at its core, makes Hadoop the go-to solution for processing big data.
 
@@ -92,7 +92,7 @@ The Hadoop Distributed File System (HDFS) is fault-tolerant by design. Data is s
 
 **DataNodes** process and store data blocks, while **NameNodes** manage the many DataNodes, maintain data block metadata, and control client access.
 
-![Basic HFFS architecture, with NameNode and multiple DataNodes.](D:\MyProjects\DE\draft\images\hdfs-components-namenode-datanode-datanode.png)
+![Basic HFFS architecture, with NameNode and multiple DataNodes.](images\hdfs-components-namenode-datanode-datanode.png)
 
 #### 3.4.1 NameNode
 
@@ -139,7 +139,7 @@ This ensures that the failure of an entire rack does not terminate all data repl
 
 This rack placement policy maintains only one replica per node and sets a limit of two replicas per server rack.
 
-![The data block replicas are place based on the default HDFS rack placement policy.](D:\MyProjects\DE\draft\images\rack-placmement-policy-hdfs.png)
+![The data block replicas are place based on the default HDFS rack placement policy.](images\rack-placmement-policy-hdfs.png)
 
 Rack failures are much less frequent than node failures. HDFS ensures high reliability by always storing at least one data block replica in a DataNode on a different rack.
 
@@ -149,7 +149,7 @@ YARN (Yet Another Resource Negotiator) is the default cluster management resourc
 
 YARN’s resource allocation role places it between the storage layer, represented by HDFS, and the MapReduce processing engine. YARN also provides a generic interface that allows you to implement new processing engines for various data types.
 
-![YARN aechitecture with individual daemons.](D:\MyProjects\DE\draft\images\yarn-daemons-hadoop-architecture.png)
+![YARN aechitecture with individual daemons.](images\yarn-daemons-hadoop-architecture.png)
 
 #### 3.5.1 ResourceManager
 
@@ -208,7 +208,7 @@ The Application Master locates the required data blocks based on the information
 
 The input data is mapped, shuffled, and then reduced to an aggregate result. The output of the MapReduce job is stored and replicated in HDFS.
 
-![Overview of the flow of a MapReduce job.](D:\MyProjects\DE\draft\images\mapper-reducer-mapreduce-job-flow.png)
+![Overview of the flow of a MapReduce job.](images\mapper-reducer-mapreduce-job-flow.png)
 
 he Hadoop servers that perform the mapping and reducing tasks are often referred to as **Mappers** and **Reducers**.
 
@@ -222,7 +222,7 @@ The mapping process ingests individual logical expressions of the data stored in
 
 A mapper task goes through every key-value pair and creates a new set of key-value pairs, distinct from the original input data. The complete assortment of all the key-value pairs represents the output of the mapper task.
 
-![The elements of a map phase of a MapReduce job.](D:\MyProjects\DE\draft\images\mapreduce-map-phase-shuffle-sort-input-split-1.png)
+![The elements of a map phase of a MapReduce job.](images\mapreduce-map-phase-shuffle-sort-input-split-1.png)
 
 Based on the key from each pair, the data is grouped, partitioned, and shuffled to the reducer nodes.
 
@@ -240,7 +240,7 @@ The shuffle and sort phases run in parallel. Even as the map outputs are retriev
 
 The map outputs are shuffled and sorted into a single reduce input file located on the reducer node. A reduce function uses the input file to aggregate the values based on the corresponding mapped keys. The output from the reduce process is a new key-value pair. This result represents the output of the entire MapReduce job and is, by default, stored in HDFS.
 
-![Overview of the reduce task in a MapReduce job.](D:\MyProjects\DE\draft\images\reduce-task-sort-shuffle-hadoop.png)
+![Overview of the reduce task in a MapReduce job.](images\reduce-task-sort-shuffle-hadoop.png)
 
 All reduce tasks take place simultaneously and work independently from one another. A reduce task is also optional.
 
@@ -1023,7 +1023,7 @@ Took 0.3245 seconds
 
 ### 7.1 Architecture
 
-![Hive Architecture](D:\MyProjects\DE\draft\images\hive-architecture.jpg)
+![Hive Architecture](images\hive-architecture.jpg)
 
 #### 7.1.1 Hive Client
 
