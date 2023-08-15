@@ -92,7 +92,7 @@ The Hadoop Distributed File System (HDFS) is fault-tolerant by design. Data is s
 
 **DataNodes** process and store data blocks, while **NameNodes** manage the many DataNodes, maintain data block metadata, and control client access.
 
-![Basic HFFS architecture, with NameNode and multiple DataNodes.](images\hdfs-components-namenode-datanode-datanode.png)
+![Basic HFFS architecture, with NameNode and multiple DataNodes.](images/hdfs-components-namenode-datanode-datanode.png)
 
 #### 3.4.1 NameNode
 
@@ -139,7 +139,7 @@ This ensures that the failure of an entire rack does not terminate all data repl
 
 This rack placement policy maintains only one replica per node and sets a limit of two replicas per server rack.
 
-![The data block replicas are place based on the default HDFS rack placement policy.](images\rack-placmement-policy-hdfs.png)
+![The data block replicas are place based on the default HDFS rack placement policy.](images/rack-placmement-policy-hdfs.png)
 
 Rack failures are much less frequent than node failures. HDFS ensures high reliability by always storing at least one data block replica in a DataNode on a different rack.
 
@@ -149,7 +149,7 @@ YARN (Yet Another Resource Negotiator) is the default cluster management resourc
 
 YARN’s resource allocation role places it between the storage layer, represented by HDFS, and the MapReduce processing engine. YARN also provides a generic interface that allows you to implement new processing engines for various data types.
 
-![YARN aechitecture with individual daemons.](images\yarn-daemons-hadoop-architecture.png)
+![YARN aechitecture with individual daemons.](images/yarn-daemons-hadoop-architecture.png)
 
 #### 3.5.1 ResourceManager
 
@@ -208,7 +208,7 @@ The Application Master locates the required data blocks based on the information
 
 The input data is mapped, shuffled, and then reduced to an aggregate result. The output of the MapReduce job is stored and replicated in HDFS.
 
-![Overview of the flow of a MapReduce job.](images\mapper-reducer-mapreduce-job-flow.png)
+![Overview of the flow of a MapReduce job.](images/mapper-reducer-mapreduce-job-flow.png)
 
 he Hadoop servers that perform the mapping and reducing tasks are often referred to as **Mappers** and **Reducers**.
 
@@ -222,7 +222,7 @@ The mapping process ingests individual logical expressions of the data stored in
 
 A mapper task goes through every key-value pair and creates a new set of key-value pairs, distinct from the original input data. The complete assortment of all the key-value pairs represents the output of the mapper task.
 
-![The elements of a map phase of a MapReduce job.](images\mapreduce-map-phase-shuffle-sort-input-split-1.png)
+![The elements of a map phase of a MapReduce job.](images/mapreduce-map-phase-shuffle-sort-input-split-1.png)
 
 Based on the key from each pair, the data is grouped, partitioned, and shuffled to the reducer nodes.
 
@@ -240,7 +240,7 @@ The shuffle and sort phases run in parallel. Even as the map outputs are retriev
 
 The map outputs are shuffled and sorted into a single reduce input file located on the reducer node. A reduce function uses the input file to aggregate the values based on the corresponding mapped keys. The output from the reduce process is a new key-value pair. This result represents the output of the entire MapReduce job and is, by default, stored in HDFS.
 
-![Overview of the reduce task in a MapReduce job.](images\reduce-task-sort-shuffle-hadoop.png)
+![Overview of the reduce task in a MapReduce job.](images/reduce-task-sort-shuffle-hadoop.png)
 
 All reduce tasks take place simultaneously and work independently from one another. A reduce task is also optional.
 
@@ -598,29 +598,29 @@ http://localhost:9870
 
 The following is what the HDFS installation looks like:
 
-           ![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-15-50-image.png)
+           ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-15-50-image.png)
 
 Clicking on the Datanodes tab shows the nodes as shown in the following
 screenshot:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-20-50-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-20-50-image.png)
 
 Click Startup Progress
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-22-41-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-22-41-image.png)
 
 Clicking on the logs will show the various logs in your cluster, as shown in the
 following screenshot: 
 
 Utilities ==> Logs
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-17-31-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-17-31-image.png)
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-19-07-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-19-07-image.png)
 
 Utilities ==> Configuration
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-30-13-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-30-13-image.png)
 
 At this point, we should all be able to see and use a basic HDFS cluster. But this is just a
 HDFS filesystem with some directories and files. We also need a job/task scheduling service to actually use the cluster for computational needs rather than just storage.
@@ -631,7 +631,7 @@ The default port **9864** is used to access individual DataNodes directly from
 http://localhost:9864
 ```
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-14-13-23-39-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-14-13-23-39-image.png)
 
 ## 5. YARN
 
@@ -660,7 +660,7 @@ $ jps | grep -vi jps
 
 The following is the YARN ResourceManager.
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-16-49-53-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-16-49-53-image.png)
 
 At this time, we should be able to see the running YARN service in our local cluster
 running Hadoop 3.1.0. Next, we will look at some new features in Hadoop 3.x.
@@ -689,7 +689,7 @@ hdfs ec [generic options]
 By using -listPolicies, you can list all the EC policies currently setup in your cluster
 along with the state of such policies whether they are ENABLED or DISABLED:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-18-24-52-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-24-52-image.png)
 
 Lets test out EC in our cluster. First we will create directories in the HDFS shown as follows:
 
@@ -704,7 +704,7 @@ Once the two directories are created then you can set the policy on any path:
 $ hdfs ec -setPolicy -path /user/ec -policy RS-6-3-1024k
 ```
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-18-29-56-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-29-56-image.png)
 
 Now copying any content into the /user/ec folder falls into the newly set policy.
 Type the command shown as follows to test this:
@@ -715,7 +715,7 @@ $ hdfs dfs -copyFromLocal ~/Documents/OnlineRetail.csv /user/ec
 
 The following screenshot shows the result of the copying, as expected the system complains as we don't really have a cluster on our local system enough to implement EC. But this should give us an idea of what is needed and how it would look:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-18-34-49-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-18-34-49-image.png)
 
 ### 5.5 Intra-DataNode balancer
 
@@ -825,23 +825,23 @@ http://localhost:16010
 
 The following screenshot shows the HBase cluster we just installed:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-14-51-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-14-51-image.png)
 
 The following screenshot shows are more attributes of the HBase cluster setup showing versions, of various components:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-57-20-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-57-20-image.png)
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-58-00-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-58-00-image.png)
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-58-36-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-58-36-image.png)
 
 Startup Progress screenshot:
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-54-11-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-54-11-image.png)
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-55-01-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-55-01-image.png)
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-10-19-55-57-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-10-19-55-57-image.png)
 
 ### 6.4 Using HBase
 
@@ -904,9 +904,9 @@ Here, we have created an HBase table named emp_data with column family cf. All t
 We are done with data preparation and table creation. Now we have to load the data from HDFS to HBase. We will use below query:
 
 ```
-hbase org.apache.hadoop.hbase.mapreduce.ImportTsv \
--Dimporttsv.separator=',' \
--Dimporttsv.columns='HBASE_ROW_KEY,cf:ename,cf:designation,cf:manager,cf:hire_date,cf:sal,cf:deptno' \
+hbase org.apache.hadoop.hbase.mapreduce.ImportTsv /
+-Dimporttsv.separator=',' /
+-Dimporttsv.columns='HBASE_ROW_KEY,cf:ename,cf:designation,cf:manager,cf:hire_date,cf:sal,cf:deptno' /
 emp_data /hbase/data/emp_data.csv
 ```
 
@@ -1023,7 +1023,7 @@ Took 0.3245 seconds
 
 ### 7.1 Architecture
 
-![Hive Architecture](images\hive-architecture.jpg)
+![Hive Architecture](images/hive-architecture.jpg)
 
 #### 7.1.1 Hive Client
 
@@ -1080,7 +1080,7 @@ The following are the services provided by Hive:-
   
   https://dlcdn.apache.org/hive/
   
-  ![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-11-13-50-23-image.png)
+  ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-13-50-23-image.png)
 
 - Unzip the downloaded tar file.
 
@@ -1148,7 +1148,7 @@ Hive works by leveraging the MapReduce framework and uses the tables and schemas
   
   In this section, we will look at installing Derby to be used in our Hive installation, https://db.apache.org/derby/derby_downloads.html
   
-  ![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-11-19-20-56-image.png)
+  ![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-19-20-56-image.png)
   
      
 
@@ -1277,7 +1277,7 @@ SELECT * from onlineretail LIMIT 5;
 SELECT * FROM OnlineRetail WHERE Description='WHITE METAL LANTERN' limit 5;
 ```
 
-![](C:\Users\ketut\AppData\Roaming\marktext\images\2023-08-11-20-20-19-image.png)
+![](C:/Users/ketut/AppData/Roaming/marktext/images/2023-08-11-20-20-19-image.png)
 
 ## 8. Apache Spark
 
@@ -1369,8 +1369,8 @@ Spark session available as 'spark'.
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 3.4.1
+    _/ // _ // _ `/ __/  '_/
+   /___/ .__//_,_/_/ /_//_/   version 3.4.1
       /_/
 
 Using Scala version 2.12.17 (OpenJDK 64-Bit Server VM, Java 17.0.8)
@@ -1396,8 +1396,8 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
-    _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 3.4.1
+    _/ // _ // _ `/ __/  '_/
+   /__ / .__//_,_/_/ /_//_/   version 3.4.1
       /_/
 
 Using Python version 3.11.4 (main, Jun  7 2023 10:13:09)
@@ -1431,7 +1431,7 @@ http://<devicename>:8080
 
 The page shows your **Spark URL**, status information for workers, hardware resource utilization, etc.
 
-![image-20230815105155678](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815105155678.png)
+![image-20230815105155678](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815105155678.png)
 
 ## Start Spark Slave Server (Start a Worker Process)
 
@@ -1453,7 +1453,7 @@ start-worker.sh spark://bd-vm:7077
 
 Now that a worker is up and running, if you reload Spark Master’s Web UI, you should see it on the list:
 
-![image-20230815110857312](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815110857312.png)
+![image-20230815110857312](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815110857312.png)
 
 ### Specify Resource Allocation for Workers
 
@@ -1465,7 +1465,7 @@ For example, to start a worker and assign only **one CPU core** to it, enter thi
 start-worker.sh -c 1 spark://bd-vm:7077
 ```
 
-![image-20230815111411296](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815111411296.png)
+![image-20230815111411296](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815111411296.png)
 
 Similarly, you can assign a specific amount of memory when starting a worker. The default setting is to use whatever amount of RAM your machine has, minus 1GB.
 
@@ -1477,7 +1477,7 @@ For example, to start a worker with 512MB of memory, enter this command:
 start-worker.sh -m 512M spark://bd-vm:707
 ```
 
-![image-20230815111710634](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815111710634.png)
+![image-20230815111710634](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815111710634.png)
 
 ## Basic Commands to Start and Stop Master Server and Workers
 
@@ -1513,7 +1513,7 @@ To distinguish between two files with the same name in $HADOOP_HOME/sbin, rename
 start-all-spark.sh
 ```
 
-![image-20230815113902352](C:\Users\ketut\AppData\Roaming\Typora\typora-user-images\image-20230815113902352.png)
+![image-20230815113902352](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815113902352.png)
 
 Similarly, you **can stop all instances** by using the following command:
 
