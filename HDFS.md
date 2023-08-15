@@ -1,20 +1,5 @@
 # Hadoop Distributed File System (HDFS) Guide
 
-Contents
-
-1. [What is HDFS?](#What is HDFS?)
-   1. [What are the Benefits of HDFS?](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-2)
-2. [How Does HDFS Store Data?](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-3)
-   1. [Data Block Splitting](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-4)
-   2. [Data Replication](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-5)
-3. [HDFS Architecture: NameNodes and DataNodes](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-6)
-   1. [NameNodes](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-7)
-   2. [DataNodes](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-8)
-4. [Key Features of HDFS](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-9)
-5. [HDFS Real Life Usage](https://phoenixnap.com/kb/what-is-hdfs#ftoc-heading-10)
-
-
-
 ## Introduction
 
 **HDFS** (Hadoop Distributed File System) is [a vital component of the Apache Hadoop project](https://phoenixnap.com/kb/apache-hadoop-architecture-explained). Hadoop is an ecosystem of software that work together to help you manage big data. The two main elements of Hadoop are:
@@ -142,5 +127,4 @@ Companies dealing with large volumes of data have long started migrating to Hado
 After reading this article, you should have a better understanding of what HDFS is and the role it plays in the Apache Hadoop ecosystem.
 
 If you are dealing with big data, or expect to grow to such a scale, Hadoop and HDFS can make things a lot easier.
-
 

@@ -1,6 +1,8 @@
-**Spark Streaming Guide for Beginners**
+# Spark Streaming Guide for Beginners
 
-Introduction
+
+
+## Introduction
 
 Spark Streaming is an addition to the Spark API for live streaming and processing large-scale data. Instead of dealing with massive amounts of unstructured raw data and cleaning up after, Spark Streaming performs near real-time data processing and collection.
 

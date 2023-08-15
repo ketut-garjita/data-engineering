@@ -4,34 +4,34 @@ Cloud computing has completely transformed the way businesses approach IT. Organ
 
 But is using the cloud a no-brainer for all companies? Or are there some reasonable concerns to consider before starting your cloud journey?
 
-This article **weighs the advantages and disadvantages of cloud computing**. Read on to learn about the pros and cons of using [cloud services](https://phoenixnap.com/blog/cloud-services-msp) and see whether moving away from on-site hardware makes sense for your organization.
+This article **weighs the advantages and disadvantages of cloud computing**. Read on to learn about the pros and cons of using cloud services and see whether moving away from on-site hardware makes sense for your organization.
 
-![Pros and cons of cloud computing](https://phoenixnap.com/blog/wp-content/uploads/2022/05/pros-and-cons-of-cloud-computing.jpg)
+![Pros and cons of cloud computing](images/pros-and-cons-of-cloud-computing.jpg)
 
-New to the cloud? If yes, we suggest you first read about the basics of [cloud computing](https://phoenixnap.com/blog/what-is-cloud-computing) and learn how using the [cloud compares to on-prem IT](https://phoenixnap.com/blog/on-premise-vs-cloud).
+New to the cloud? If yes, we suggest you first read about the basics of [loud computing and learn how using the cloud compares to on-prem IT.
 
 ## Advantages of Cloud Computing
 
 Below is an in-depth look at the main benefits of cloud computing.
 
-![Advantages of cloud computing](https://phoenixnap.com/blog/wp-content/uploads/2022/05/advantages-of-cloud-computing.jpg)
+![Advantages of cloud computing](images/advantages-of-cloud-computing.jpg)
 
 ### 1. Lower IT Costs
 
 While setting up a top-tier cloud infrastructure is not cheap, that price tag is significantly smaller than what a comparable on-prem system would set you back. Cloud computing reduces IT expenses by eliminating the cost of:
 
 - Brand-new hosting and networking equipment.
-- Renting space for an in-house [data center](https://phoenixnap.com/blog/data-center-selection).
+- Renting space for an in-house data center.
 - Skilled IT technicians that keep on-prem hardware running.
 - Electricity and air conditioning bills.
 - Software licensing fees.
-- [Backup](https://phoenixnap.com/blog/backup-strategy) and redundancy equipment for ensuring [high availability](https://phoenixnap.com/blog/what-is-high-availability).
+- Backup and redundancy equipment for ensuring high availability.
 
 The pay-as-you-go payment model of using the cloud also means **you are never paying for IT resources you are not using**. These natural economies of scale eliminate unnecessary overhead and lead to more precise business planning.
 
-The low cost of deploying to the cloud levels the playing field for businesses of all sizes. Small teams without the budget to purchase on-site [dedicated servers](https://phoenixnap.com/blog/dedicated-server-benefits) can set up an enterprise-grade [cloud infrastructure](https://phoenixnap.com/blog/devops-infrastructure) for a reasonable monthly subscription cost.
+The low cost of deploying to the cloud levels the playing field for businesses of all sizes. Small teams without the budget to purchase on-site dedicated servers can set up an enterprise-grade cloud infrastructure for a reasonable monthly subscription cost.
 
-The main reason cloud computing lowers IT costs is that you switch from capital expenditures (CapEx) to operational expenses (OpEx). Learn why that shift should excite you in our [CapEx vs OpEx](https://phoenixnap.com/blog/capex-vs-opex) article.
+The main reason cloud computing lowers IT costs is that you switch from capital expenditures (CapEx) to operational expenses (OpEx). Learn why that shift should excite you in our CapEx vs OpEx article.
 
 ### 2. Near-Instant Deployment Speed
 
@@ -40,16 +40,16 @@ Cloud computing enables a user to spin new specs in a matter of seconds and a fe
 If a team relies on on-site hardware, the process for deploying more storage room for a developer to test a product add-on would require the business to:
 
 - Approve the upfront cost of new hardware.
-- Procure a new [server](https://phoenixnap.com/blog/server-management) and wait for delivery.
+- Procure a new server and wait for delivery.
 - Take the current server offline.
 - Set up new equipment.
 - Fine-tune the server and restart the system.
 
-You can use the cloud to boil this process down to a few minutes. The developer accesses the cloud, spins up a new [virtual machine](https://phoenixnap.com/blog/devops-virtualization), and can start testing a new feature immediately. Once the testing ends, the developer shuts down the VM in a few clicks.
+You can use the cloud to boil this process down to a few minutes. The developer accesses the cloud, spins up a new virtual machine, and can start testing a new feature immediately. Once the testing ends, the developer shuts down the VM in a few clicks.
 
 This deployment speed is enough to give you an edge over any competitor that does not use the cloud.
 
-When it comes to fast deployments, there is no beating the agility of pNAP's [Bare Metal Cloud](https://phoenixnap.com/bare-metal-cloud)—BMC enables your team to get a new bare-metal server up and running [in under 60 seconds](https://www.youtube.com/watch?v=BzBBwLxR80o)!
+When it comes to fast deployments, there is no beating the agility of pNAP's Bare Metal Cloud BMC enables your team to get a new bare-metal server up and running in under 60 seconds!
 
 ### 3. Data Accessibility
 
@@ -65,24 +65,24 @@ The ability to securely access and share files paves the way for better team col
 
 This level of data accessibility makes the cloud a natural fit with the post-pandemic workforce that is more and more turning to remote-first work.
 
-Remote-first strategies offer a line of benefits, but spread-out teams introduce risks we did not have to worry about before. Read about [best practices for securing remote access](https://phoenixnap.com/blog/secure-remote-access-best-practices) for employees and ensure the new way of working does not lead to exploitable weaknesses. 
+Remote-first strategies offer a line of benefits, but spread-out teams introduce risks we did not have to worry about before. Read about best practices for securing remote access for employees and ensure the new way of working does not lead to exploitable weaknesses. 
 
 ### 4. Unrivaled Scalability (Both Up and Down)
 
-Whenever a cloud-based app requires extra [bandwidth](https://phoenixnap.com/kb/website-bandwidth), computing power, or [storage](https://phoenixnap.com/blog/object-storage-vs-block-storage) space, you can scale up computing resources to meet the current demand. The same principle works in reverse—if an app's needs exceed existing resources, you can scale down until the demand rises again.
+Whenever a cloud-based app requires extra bandwidth, computing power, or storage space, you can scale up computing resources to meet the current demand. The same principle works in reverse—if an app's needs exceed existing resources, you can scale down until the demand rises again.
 
 The same strategy is not as simple for on-prem hardware. Scaling up requires a lengthy (and costly) process of purchasing and setting up new equipment. Scaling down requires you to turn off and set aside devices you already bought.
 
-When weighing the advantages and disadvantages of cloud computing, [scalability is often a key factor](https://phoenixnap.com/glossary/scalability). The ability to seamlessly add or subtract resources has a two-fold positive effect:
+When weighing the advantages and disadvantages of cloud computing, scalability is often a key factor. The ability to seamlessly add or subtract resources has a two-fold positive effect:
 
 - You can never end up in a situation where you do not have enough IT resources to meet current demand.
 - Since you can always scale down, you ensure you never pay for resources you are not actively using.
 
-If your needs vary massively throughout the year (e.g., if you have spikes in traffic during the holiday season), the cloud makes for a hand-in-glove fit. When the demand is high, you deploy additional [cloud storage](https://phoenixnap.com/blog/cloud-storage-security) and processing; once traffic goes down, you scale down and minimize costs until the next surge in traffic.
+If your needs vary massively throughout the year (e.g., if you have spikes in traffic during the holiday season), the cloud makes for a hand-in-glove fit. When the demand is high, you deploy additional cloud storage and processing; once traffic goes down, you scale down and minimize costs until the next surge in traffic.
 
 Also worth pointing out is that **scaling up or down in a cloud does not cause downtime**. Whereas you must shut down a physical server when adding or removing resources, tweaking a cloud environment does not take your services offline.
 
-Cloud scalability is a massive business advantage, but controlling spending requires more than a watchful eye. These [14 cloud cost management tools](https://phoenixnap.com/blog/cloud-cost-management-tools) help ensure IT costs never spiral out of control.
+Cloud scalability is a massive business advantage, but controlling spending requires more than a watchful eye. These 14 cloud cost management tools help ensure IT costs never spiral out of control.
 
 ### 5. Offloaded IT Maintenance
 
@@ -95,30 +95,30 @@ Performing routine maintenance and manual updates takes up a lot of valuable IT 
 
 The cloud provider is responsible for regularly refreshing and keeping systems up to date with the latest patches and updates. Also, remember that **a top-tier provider is an early adopter of cutting-edge tech**. Relying on cloud services often means being among the first businesses to use the latest tech, which provides another edge over competitors.
 
-You define the rate of updates and general rules for maintenance in the [service-level agreement (SLA)](https://phoenixnap.com/blog/service-level-agreement-best-practices) you sign when contracting the provider. From then on, the provider handles IT maintenance while the in-house team devotes all of its attention to improving the bottom line.
+You define the rate of updates and general rules for maintenance in the service-level agreement (SLA) you sign when contracting the provider. From then on, the provider handles IT maintenance while the in-house team devotes all of its attention to improving the bottom line.
 
 ### 6. Superior Data Security
 
 When assessing the advantages and disadvantages of cloud computing, security is a common concern. After all, if workers can remotely access data without much hassle, what's stopping a criminal from doing the same?
 
-In truth, a business would require a fortune to set up [cybersecurity](https://phoenixnap.com/blog/what-is-cyber-security) measures [cloud providers](https://phoenixnap.com/blog/choose-best-cloud-service-provider) rely on to keep data and apps safe. Some of the most common protection features are:
+In truth, a business would require a fortune to set up cybersecurity measures cloud providers rely on to keep data and apps safe. Some of the most common protection features are:
 
-- End-to-end [data encryption](https://phoenixnap.com/blog/encryption-at-rest) (at-rest, in-transit, and in-use).
+- End-to-end data encryption (at-rest, in-transit, and in-use).
 - Secure authentication protocols.
-- [Zero-trust](https://phoenixnap.com/blog/zero-trust-security) access controls.
+- Zero-trust access controls.
 - Keeping data on servers distributed across multiple locations.
-- Top-tier [infrastructure](https://phoenixnap.com/blog/network-infrastructure-security) security.
-- Advanced [cloud monitoring](https://phoenixnap.com/blog/what-is-cloud-monitoring) features.
-- [Intrusion detection](https://phoenixnap.com/blog/intrusion-detection-system) and prevention systems.
-- [Backup and disaster recovery (BDR)](https://phoenixnap.com/blog/backup-and-disaster-recovery).
+- Top-tier infrastructure security.
+- Advanced cloud monitoring features.
+- Intrusion detection and prevention systems.
+- Backup and disaster recovery (BDR).
 
-Thanks to these measures, storing sensitive files in the cloud is a valid counter to most data-related dangers, including [breaches](https://phoenixnap.com/blog/what-is-a-data-breach), accidental [leaks](https://phoenixnap.com/blog/what-is-data-leakage), and threats to [data integrity](https://phoenixnap.com/blog/what-data-integrity).
+Thanks to these measures, storing sensitive files in the cloud is a valid counter to most data-related dangers, including breaches, accidental leaks, and threats to data integrity.
 
-The cloud also offers various [disaster recovery](https://phoenixnap.com/blog/what-is-disaster-recovery) features. [Cloud disaster recovery](https://phoenixnap.com/blog/cloud-disaster-recovery) enables you to back up and restore business-critical files in case of an incident. You can also take DR a step further and deploy [Disaster-Recovery-as-a-Service (DRaaS)](https://phoenixnap.com/disaster-recovery-as-a-service-draas)—DRaaS ensures business continuity in case of a disaster by providing a software-defined, cloud-hosted replica of the primary IT system.
+The cloud also offers various disaster recovery features. Cloud disaster recovery enables you to back up and restore business-critical files in case of an incident. You can also take DR a step further and deploy Disaster-Recovery-as-a-Service (DRaaS). DRaaS ensures business continuity in case of a disaster by providing a software-defined, cloud-hosted replica of the primary IT system.
 
-In addition to top [cloud security](https://phoenixnap.com/blog/cloud-computing-security) and BDR, cloud providers also invest heavily in physical protection. Mantraps, 24/7 cameras, and doors with biometric scans are standard measures.
+In addition to top cloud security and BDR, cloud providers also invest heavily in physical protection. Mantraps, 24/7 cameras, and doors with biometric scans are standard measures.
 
-Different cloud types come with different data security challenges. Learn about the five basic [cloud deployment models](https://phoenixnap.com/blog/cloud-deployment-models) and see which approach aligns the best with your use case's risk level.
+Different cloud types come with different data security challenges. Learn about the five basic cloud deployment models and see which approach aligns the best with your use case's risk level.
 
 ## Disadvantages of Cloud Computing
 
@@ -126,7 +126,7 @@ Every technology has its pros and cons, and cloud computing is no exception. How
 
 Since the only way to distinguish between good and bad vendors is to know what to look out for, let's look at the main drawbacks of using cloud computing.
 
-![Disadvantages of cloud computing](https://phoenixnap.com/blog/wp-content/uploads/2022/05/disadvantages-of-cloud-computing.jpg)
+![Disadvantages of cloud computing](images/disadvantages-of-cloud-computing.jpg)
 
 ### 1. Limited Visibility and Control
 
@@ -142,23 +142,23 @@ If you side with the right vendor, the lack of direct control over cloud-hosted 
 
 Keep in mind that some cloud service providers follow a **shared responsibility model**. In that case, their team ensures app availability while the client's team retains responsibility for data security and user management. This strategy enables you to implement custom strategies for looking after data and activity in the cloud.
 
-Our article on the best [cloud monitoring tools](https://phoenixnap.com/blog/cloud-monitoring-tools) examines 30 different solutions you can use to improve visibility into cloud-residing assets.
+Our article on the best[cloud monitoring tools examines 30 different solutions you can use to improve visibility into cloud-residing assets.
 
 ### 2. New Security Risks
 
-While cloud providers have some of the best cybersecurity measures in existence, these vendors are also the most worthwhile targets for [cyberattacks](https://phoenixnap.com/blog/cyber-security-attack-types). Hackers constantly attempt to target cloud vendors since they know data centers store vast amounts of sensitive data.
+While cloud providers have some of the best cybersecurity measures in existence, these vendors are also the most worthwhile targets for cyberattacks. Hackers constantly attempt to target cloud vendors since they know data centers store vast amounts of sensitive data.
 
 As a result, the likelihood of attempted attacks increases significantly if you use cloud computing.
 
-Another security issue is in the shared responsibility model. While the provider will enable you to use top-tier security measures, your team is responsible for making the most out of those features. If your team has no experience with encryption, access management, or [network security](https://phoenixnap.com/blog/what-is-network-security), you should consider setting aside a budget for [managed IT services](https://phoenixnap.com/blog/managed-it-services).
+Another security issue is in the shared responsibility model. While the provider will enable you to use top-tier security measures, your team is responsible for making the most out of those features. If your team has no experience with encryption, access management, or network security, you should consider setting aside a budget for managed IT services.
 
 Another potential concern is the cloud's ease of accessibility. All someone needs to access the cloud is an Internet connection, making it easier for unauthorized users to access data and systems. The three most common causes of breaches in the cloud are:
 
 - Misconfigured settings.
-- Weak [passwords](https://phoenixnap.com/blog/strong-great-password-ideas).
-- Stolen credentials (typically by an [insider threat](https://phoenixnap.com/blog/insider-threats)).
+- Weak passwords.
+- Stolen credentials (typically by an insider threat).
 
-While the risk is there, the reality is that **the cloud is almost always more secure than on-prem storage**. In both cases, humans are the biggest weakness security-wise, so you should have mandatory [cybersecurity awareness training](https://phoenixnap.com/blog/security-awareness-training-program) regardless of whether you operate on-prem or in the cloud.
+While the risk is there, the reality is that **the cloud is almost always more secure than on-prem storage**. In both cases, humans are the biggest weakness security-wise, so you should have mandatory cybersecurity awareness training regardless of whether you operate on-prem or in the cloud.
 
 ### 3. Downtime Concerns
 
@@ -168,11 +168,11 @@ Issues on the provider's side can also cause downtime. In case of a power outage
 
 Here are a few strategies for lowering the likelihood of downtime:
 
-- Consider multi-region deployments to ensure [business continuity](https://phoenixnap.com/blog/business-continuity-plan-best-practices) if one of the locations runs into a problem.
-- Prepare a [disaster recovery plan](https://phoenixnap.com/blog/disaster-recovery-plan-checklist) that shifts operations to a backup system in case of a [cloud outage](https://phoenixnap.com/blog/cloud-outage).
+- Consider multi-region deployments to ensure business continuity if one of the locations runs into a problem.
+- Prepare a disaster recovery plan that shifts operations to a backup system in case of a cloud outage.
 - Sign up with a provider that guarantees top-tier uptime (tier III or IV data centers).
 
-Data centers with different tiers offer different uptime guarantees. Our article on [data center tiers](https://phoenixnap.com/blog/data-center-tiers-classification) explains what you can expect from each facility level.
+Data centers with different tiers offer different uptime guarantees. Our article on data center tiers explains what you can expect from each facility level.
 
 ### 4. Vendor Lock-In Concerns
 
@@ -187,16 +187,16 @@ Sometimes, changing vendors may not be a willing choice. What if a new regulatio
 Here are several good practices you can follow to counter vendor lock-in issues:
 
 - Have a clear picture of your system's tech and dependencies.
-- Implement [DevOps tools](https://phoenixnap.com/blog/best-devops-tools) and [software development life cycle (SDLC)](https://phoenixnap.com/blog/software-development-life-cycle) methodologies.
+- Implement DevOps tools and software development life cycle (SDLC) methodologies.
 - Design apps from the start with portability in mind.
 - Develop a clear exit strategy.
-- Keep up with the latest [cloud computing trends](https://phoenixnap.com/blog/cloud-computing-trends).
-- Implement a [multi-cloud strategy](https://phoenixnap.com/blog/multi-cloud-strategy).
+- Keep up with the latest cloud computing trends.
+- Implement a multi-cloud strategy.
 
-Learn about [multi-cloud](https://phoenixnap.com/blog/multi-cloud) and see why this cloud type offers a natural, proactive way to counter vendor lock-in concerns.
+Learn about multi-cloud and see why this cloud type offers a natural, proactive way to counter vendor lock-in concerns.
 
 ## Advantages and Disadvantages of Cloud Computing: Is Migrating Worth the Effort?
 
 When you weigh the advantages and disadvantages of cloud computing, it becomes clear the cloud is not something you should rush into. However, it is also easy to see that businesses that use the cloud have the edge over those that do not.
 
-As long as your team carefully assesses the risks and you find the right provider, the answer to the question at the start of this article is clear—yes, [cloud migrations](https://phoenixnap.com/blog/what-is-cloud-migration) are indeed a no-brainer in 2022.
+As long as your team carefully assesses the risks and you find the right provider, the answer to the question at the start of this article is clear—yes, cloud migrations are indeed a no-brainer in 2022.

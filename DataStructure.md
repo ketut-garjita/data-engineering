@@ -10,7 +10,7 @@ Therefore, knowing about data structures and the different available types helps
 
 ## What are Data Structures?
 
-**Data structures** organize data in a program and represent different [data types](https://phoenixnap.com/kb/python-data-types) in **physical form**.
+**Data structures** organize data in a program and represent different data types in **physical form**.
 
 Every data structure defines:
 
@@ -24,7 +24,7 @@ All operations fall into one of the two following categories:
 
 ### What are Data Structures Used for?
 
-Data structures provide an efficient way to store and access large amounts of data. Various fields of applied programming, such as **AI**, **[databases](https://phoenixnap.com/kb/what-is-a-database)**, and others, research the problem of efficient data storage.
+Data structures provide an efficient way to store and access large amounts of data. Various fields of applied programming, such as **AI**, **databases**, and others, research the problem of efficient data storage.
 
 Data structures, together with **algorithms**, are the core of any program. Well-organized data structures help design structured algorithms and **reduce time and memory complexity**.
 
@@ -41,7 +41,7 @@ Depending on the in-memory representation, data structures divide into two categ
 
 2. **Non-linear data structures** are arranged on multiple levels non-sequentially. The data structure focuses on efficient memory use but is harder to implement and traverse. Examples of non-linear data structures include various types of **trees** and **graphs**.
 
-![Data structure types classification](https://phoenixnap.com/kb/wp-content/uploads/2022/10/data-structures-types-classification.png)
+![Data structure types classification](images/data-structures-types-classification.png)
 
 ## Types of Data Structures
 
@@ -55,7 +55,7 @@ An **array** (or vector, tuple, table) is a data structure consisting of a seq
 
 The sequential ordering of data reflects in numbering an array's elements from first to last. The ordinal number is known as an **index**.
 
-![Array data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/array-data-structure.png)
+![Array data structure](images/array-data-structure.png)
 
 An array has a **name**, which denotes all elements in the sequence. To access individual members, use the array name and the element's index.
 
@@ -66,7 +66,7 @@ The two main **features of arrays** are:
 
 Due to these two features, representing an array in memory is a **simple sequential allocation**. The total memory an array takes up is the length of an array multiplied by an individual element's size.
 
-![Array memory storage structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/array-memory-storage-structure.png)
+![Array memory storage structure](images/array-memory-storage-structure.png)
 
 The time required to access any element from the array is **constant**. Algorithms for reading or writing elements are unit instructions based on the following:
 
@@ -95,13 +95,13 @@ Most modern programming languages implement lists through **pointers**. Every e
 
 An **outside pointer** helps access the list as a whole and points to the first element in the list.
 
-![linked list pointers data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/linked-list-pointers-data-structure.png)
+![linked list pointers data structure](images/linked-list-pointers-data-structure.png)
 
 A pointer has the value **null** to represent the final element in a list or an empty list.
 
 **Doubly linked lists** feature pointers on both ends of a key. The first pointer points to the previous data, while the second points to the next element.
 
-![Doubly linked list pointers data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/doubly-linked-list-pointers-data-structure.png)
+![Doubly linked list pointers data structure](images/doubly-linked-list-pointers-data-structure.png)
 
 Implementing a pointer on each side enables traversing the list in **both directions**. Accessing data from a list is done on either side of any given element.
 
@@ -130,30 +130,30 @@ A **queue** is a type of sequential data structure with lined-up elements. We 
 
 Queues are a **FIFO** (**F**irst **I**n, **F**irst **O**ut) data structure when it comes to adding and removing elements. Adding and removing elements are called **enqueuing** and **dequeuing**, respectively.
 
-![Queue data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/queue-data-structure.png)
+![Queue data structure](images/queue-data-structure.png)
 
 Similar to stacks, queues can be implemented using lists with specific rules. For example, enqueuing elements happens at the end of the list, whereas dequeuing occurs in the front.
 
-Queues help implement [job scheduling](https://phoenixnap.com/glossary/job-scheduling), resource sharing, and FCFS (**F**irst **C**ome, **F**irst **S**erve) systems.
+Queues help implement job scheduling, resource sharing, and FCFS (**F**irst **C**ome, **F**irst **S**erve) systems.
 
 ### Graph
 
 **Graphs** are non-linear data structures consisting of **vertices** (nodes, points) connected by **edges** (links, lines).  A graph aims to represent **relationships** between individual data points.
-![Graph data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/graph-data-structure.png)
+![Graph data structure](images/graph-data-structure.png)
 
-For example, lines connecting different cities (nodes) are a graph. Graphs find many applications in computing problems, such as parallel processing, distributed memory, networking, and [graph databases](https://phoenixnap.com/kb/graph-database).
+For example, lines connecting different cities (nodes) are a graph. Graphs find many applications in computing problems, such as parallel processing, distributed memory, networking, and [graph databases](graph-database.md).
 
 There are two methods to represent a graph physically:
 
 1. **Adjacency matrix** represents a graph through a two-dimensional (2D) array. The total number of vertices determines both dimensions. If the value in the matrix is **1**, an edge exists between the two vertices.
 
-![Graph adjacency matrix](https://phoenixnap.com/kb/wp-content/uploads/2022/10/graph-adjacency-matrix.png)
+![Graph adjacency matrix](images/graph-adjacency-matrix.png)
 
 An adjacency matrix is a quick way to check for vertices in a graph.
 
 2. **Adjacency list** uses an array of linked lists to represent a graph. An index represents every vertex, while the linked list contains all links to the vertex.
 
-![Graph adjancency list](https://phoenixnap.com/kb/wp-content/uploads/2022/10/graph-adjancency-list.png)
+![Graph adjancency list](images/graph-adjancency-list.png)
 
 An adjacency list is a memory-efficient way to store graphs with many vertices.
 
@@ -163,9 +163,9 @@ An adjacency list is a memory-efficient way to store graphs with many vertices.
 
 Similar to a graph, a tree consists of **nodes** and **edges**. Each node connects to many children, but every child has exactly one parent. An exception is a topmost node (**root**), which has no parents, and the bottom nodes (**leaves**), which have no children.
 
-![Tree data structure](https://phoenixnap.com/kb/wp-content/uploads/2022/10/tree-data-structure.png)
+![Tree data structure](images/tree-data-structure.png)
 
-Trees often appear in computing. For example, the **folder/directory structure** in most [operating systems](https://phoenixnap.com/glossary/operating-system) is a tree. The tree data structure also helps define other specialized data structures, such as **disjoint sets**, **priority queues**, etc.
+Trees often appear in computing. For example, the **folder/directory structure** in most operating systems is a tree. The tree data structure also helps define other specialized data structures, such as **disjoint sets**, **priority queues**, etc.
 
 Linked lists help represent a general tree with any number of child nodes:
 
@@ -174,12 +174,11 @@ Linked lists help represent a general tree with any number of child nodes:
 
 A typical family of tree-like data structures is **binary trees** where every node has a maximum of two children (**left** and **right**). The added limit simplifies the representation of a binary tree with a doubly linked list.
 
-![Binary tree doubly linked list with pointers](https://phoenixnap.com/kb/wp-content/uploads/2022/10/binary-tree-doubly-linked-list-with-pointers.png)
+![Binary tree doubly linked list with pointers](images/binary-tree-doubly-linked-list-with-pointers.png)
 
 Binary trees help define many other practical data structures, such as **binary search trees** (**BST**), **heaps**, etc.
 
 Conclusion
 
 After reading this guide, you are now familiar with the different data structures and their use in computation. Various data structures help provide multiple efficient ways to represent, store, and manipulate data in a program.
-
 
