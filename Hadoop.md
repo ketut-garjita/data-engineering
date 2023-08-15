@@ -44,7 +44,7 @@ Press <enter> to keep the current choice[*], or type selection number:
 
 Apache Hadoop is an exceptionally successful framework that manages to solve the many challenges posed by big data. This efficient solution distributes storage and processing power across thousands of nodes within a cluster. A fully developed Hadoop platform includes a collection of tools that enhance the core Hadoop framework and enable it to overcome any obstacle.
 
-The underlying architecture and the role of the many available tools in a [Hadoop ecosystem](Hadoop.cmd) can prove to be complicated for newcomers.
+The underlying architecture and the role of the many available tools in a [Hadoop ecosystem](Hadoop.md) can prove to be complicated for newcomers.
 
 ### 3.2 Overview of Hadoop Architecture
 
@@ -58,7 +58,7 @@ A Hadoop cluster consists of one, or several, Master Nodes and many more so-call
 
 **Yet Another Resource Negotiator (YARN)** was created to improve resource management and scheduling processes in a Hadoop cluster. The introduction of YARN, with its generic interface, opened the door for other data processing tools to be incorporated into the Hadoop ecosystem.
 
-A vibrant developer community has since created numerous open-source [Apache](Apache.md) projects to complement Hadoop. Many of these solutions have catchy and creative names such as [Apache Hive](Hadoop.cmd), Impala, Pig, Sqoop, Spark, and Flume. These tools compile and process various data types. They also provide user-friendly interfaces, messaging services, and improve cluster processing speeds.
+A vibrant developer community has since created numerous open-source [Apache](Apache.md) projects to complement Hadoop. Many of these solutions have catchy and creative names such as [Apache Hive](Hadoop.md), Impala, Pig, Sqoop, Spark, and Flume. These tools compile and process various data types. They also provide user-friendly interfaces, messaging services, and improve cluster processing speeds.
 
 An expanded software stack, with HDFS, YARN, and MapReduce at its core, makes Hadoop the go-to solution for processing big data.
 
@@ -389,7 +389,7 @@ source ~/.bashrc
 
 #### 4.3.2 Edit hadoop-env.sh File
 
-The *hadoop-env.sh* file serves as a master file to configure YARN, [HDFS](HDFS.md), [MapReduce](HadoopMapReduce.cmd), and Hadoop-related project settings.
+The *hadoop-env.sh* file serves as a master file to configure YARN, [HDFS](HDFS.md), [MapReduce](HadoopMapReduce.md), and Hadoop-related project settings.
 
 When setting up a **single node Hadoop cluster**, you need to define which Java implementation is to be utilized. Use the previously created **`$HADOOP_HOME`** variable to access the *hadoop-env.sh* file
 
