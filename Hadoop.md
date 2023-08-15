@@ -1431,7 +1431,7 @@ http://<devicename>:8080
 
 The page shows your **Spark URL**, status information for workers, hardware resource utilization, etc.
 
-![image-20230815105155678](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815105155678.png)
+![image-20230815105155678](images/image-20230815105155678.png)
 
 ## Start Spark Slave Server (Start a Worker Process)
 
@@ -1453,7 +1453,7 @@ start-worker.sh spark://bd-vm:7077
 
 Now that a worker is up and running, if you reload Spark Master’s Web UI, you should see it on the list:
 
-![image-20230815110857312](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815110857312.png)
+![image-20230815110857312](images/image-20230815110857312.png)
 
 ### Specify Resource Allocation for Workers
 
@@ -1465,7 +1465,7 @@ For example, to start a worker and assign only **one CPU core** to it, enter thi
 start-worker.sh -c 1 spark://bd-vm:7077
 ```
 
-![image-20230815111411296](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815111411296.png)
+![image-20230815111411296](images/image-20230815111411296.png)
 
 Similarly, you can assign a specific amount of memory when starting a worker. The default setting is to use whatever amount of RAM your machine has, minus 1GB.
 
@@ -1477,7 +1477,7 @@ For example, to start a worker with 512MB of memory, enter this command:
 start-worker.sh -m 512M spark://bd-vm:707
 ```
 
-![image-20230815111710634](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815111710634.png)
+![image-20230815111710634](images/image-20230815111710634.png)
 
 ## Basic Commands to Start and Stop Master Server and Workers
 
@@ -1513,7 +1513,7 @@ To distinguish between two files with the same name in $HADOOP_HOME/sbin, rename
 start-all-spark.sh
 ```
 
-![image-20230815113902352](C:/Users/ketut/AppData/Roaming/Typora/typora-user-images/image-20230815113902352.png)
+![image-20230815113902352](images/image-20230815113902352.png)
 
 Similarly, you **can stop all instances** by using the following command:
 
