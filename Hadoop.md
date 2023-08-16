@@ -330,7 +330,7 @@ machine:
     $ cp etc/hadoop/.xml input bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduceexamples-3.3.6.jar grep input output 'dfs[a-z.]+'
     $ cat output/
 
-If everything runs as expected, you will see an output directory showing some output, which shows that the sample command worked.Format File System.
+If everything runs as expected, you will see an output directory showing some output, which shows that the sample command worked.
 
 ### 4.2 Enable Passwordless SSH for Hadoop user
 
@@ -354,14 +354,14 @@ Hadoop excels when deployed in a **fully distributed mode** on a large cluster
 
 This setup, also called **pseudo-distributed mode**, allows each Hadoop daemon to run as a single Java process. A Hadoop environment is configured by editing a set of configuration files:
 
-- bashrc
+- .bashrc
 - hadoop-env.sh
 - core-site.xml
 - hdfs-site.xml
 - mapred-site-xml
 - yarn-site.xml
 
-#### 4.3.1 Configure Hadoop Environment Variables (bashrc)
+#### 4.3.1 Configure Hadoop Environment Variables (.bashrc)
 
 ```
 sudo nano ~/.bashrc
@@ -533,7 +533,7 @@ Append the following configuration to the file:
 </configuration>
 ```
 
-### 4.4 Create directories for :
+### 4.4 Create directories
 
 - dfs.data.dir
   
