@@ -1,5 +1,3 @@
-# Contents
-
 1. [Hadoop Architecture](HadoopArchitecture.md)
 
 2. [HDFS](HDFS.md)
