@@ -3,5 +3,5 @@ This repository contains a brief description of the Hadoop ecosystem, install an
 
 Main contains Branches : 
 
-1-Knowledges 
+1-Knowledges   
 2-Installations 
