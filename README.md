@@ -1,4 +1,8 @@
-# data-engineering
-This repository contains a brief description of the Hadoop ecosystem, install and setup some of the Apache open softwares that is often used in Big Data environments, i.e. HDFS, YARN, Hive, HBase, Spark, Databases. etc.
+# Installations
+- Hadoop
+- Hive
+- HBase
+- Spark
 
-See Branch : contents 
+Branch Name : Installations
+
