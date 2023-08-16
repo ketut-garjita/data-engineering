@@ -1,6 +1,6 @@
-# Knowledges
+# Contents
 
-1. [Hadoop Ecosystem](Hadoop.md)
+1. [Hadoop Architecture](HadoopArchitecture.md)
 
 2. [HDFS](HDFS.md)
 
@@ -24,7 +24,8 @@
 
 12. [Graph Database](graph-database.md)
 
--13. [Advantages and Disadvantages of Cloud Computing](Advantages-and-Disadvantages-of-Cloud-Computing.md)
+13. [Advantages and Disadvantages of Cloud Computing](Advantages-and-Disadvantages-of-Cloud-Computing.md)
 
-    
+
+
 
